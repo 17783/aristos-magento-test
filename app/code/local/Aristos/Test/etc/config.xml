@@ -1,0 +1,18 @@
+<config>    
+    <modules>
+        <Aristos_Test>
+            <version>0.1.0</version>
+        </Aristos_Test>
+    </modules>
+    <frontend>
+        <routers>
+            <aristos>
+                <use>standard</use>
+                <args>
+                    <module>Aristos_Test</module>
+                    <frontName>aristos</frontName>
+                </args>
+            </aristos>
+        </routers>
+    </frontend>
+</config>

@@ -1,9 +1,9 @@
 <?php
 
-class Magentotutorial_Helloworld_IndexController extends Mage_Core_Controller_Front_Action {
+class Aristos_Test_IndexController extends Mage_Core_Controller_Front_Action {
 	public function indexAction() {
 		//remove our previous echo
-		//echo 'Hello Index!';
+//		echo 'Hello Index!';
 		$this->loadLayout();
 		$this->renderLayout();
 	}

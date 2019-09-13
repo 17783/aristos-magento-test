@@ -1,8 +1,8 @@
 <config>
     <modules>
-        <Magentotutorial_Helloworld>
+        <Aristos_Test>
             <active>true</active>
             <codePool>local</codePool>
-        </Magentotutorial_Helloworld>
+        </Aristos_Test>
     </modules>
 </config>
