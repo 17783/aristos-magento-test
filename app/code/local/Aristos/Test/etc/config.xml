@@ -14,5 +14,12 @@
                 </args>
             </aristos>
         </routers>
+        <layout>
+            <updates>
+                <aristos_test>
+                    <file>aristos_test.xml</file>
+                </aristos_test>
+            </updates>
+        </layout>
     </frontend>
 </config>

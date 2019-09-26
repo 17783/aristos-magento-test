@@ -1,0 +1,22 @@
+<layout version="0.1.0">
+	<aristos_index_index>
+		<reference name="root">
+			<action method="setTemplate">
+				<template>aristos/test/simple_page.phtml</template>
+			</action>
+		</reference>
+	</aristos_index_index>
+	<aristos_test_index>
+		<reference name="root">
+			<action method="setTemplate">
+				<template>page/1column.phtml</template>
+			</action>
+		</reference>
+		<reference name="content">
+			<block type="page/html" name="hello" template="aristos/test/config.phtml"/>
+		</reference>
+	</aristos_test_index>
+	<aristos_index_goodbye>
+		<update handle="aristos_index_index"/>
+	</aristos_index_goodbye>
+</layout>
