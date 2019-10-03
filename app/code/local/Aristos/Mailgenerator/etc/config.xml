@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Aristos_Mailgenerator>
+			<version>0.1.0</version>
+		</Aristos_Mailgenerator>
+	</modules>
+	<global>
+		<models>
+			<aristos_mailgenerator>
+				<class>Aristos_Mailgenerator_Model</class>
+				<resourceModel>aristos_mailgenerator_resource</resourceModel>
+			</aristos_mailgenerator>
+			<aristos_mailgenerator_resource>
+				<class>Aristos_Mailgenerator_Model_Resource</class>
+			</aristos_mailgenerator_resource>
+		</models>
+		<blocks>
+			<aristos_mailgenerator>
+				<class>Aristos_Mailgenerator_Block</class>
+			</aristos_mailgenerator>
+		</blocks>
+		<helpers>
+			<aristos_mailgenerator>
+				<class>Aristos_Mailgenerator_Helper</class>
+			</aristos_mailgenerator>
+		</helpers>
+	</global>
+</config>

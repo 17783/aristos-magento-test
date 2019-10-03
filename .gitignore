@@ -1,6 +1,7 @@
 /app/etc/modules/*
 !/app/etc/modules/Magentotutorial_Helloworld.xml
 !/app/etc/modules/Aristos_Test.xml
+!/app/etc/modules/Aristos_Mailgenerator.xml
 /dev/
 /downloader/
 /errors/
